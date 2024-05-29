@@ -8,7 +8,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/meubanco
       SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: D14m04luma@
+      SPRING_DATASOURCE_PASSWORD: senha
     depends_on:
       - db
     networks:
@@ -26,7 +26,7 @@ services:
     environment:
       POSTGRES_DB: meubanco
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: D14m04luma@
+      POSTGRES_PASSWORD: senha
     ports:
       - "5432:5432"
     networks:
